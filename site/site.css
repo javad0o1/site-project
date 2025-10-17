@@ -1,0 +1,129 @@
+
+
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #fff;
+    color: #333;
+    direction: rtl; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 50px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900; 
+    color: #000;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+    margin: bottom 10px; ;
+}
+
+.nav-links a:hover {
+    color: #F84F66; 
+}
+
+.icons  {
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.hero-section {
+    
+    
+    background: url('identical-quadruplets-noelle-mirabella-1.jpg') no-repeat center left;
+    background-size:auto;
+    display: flex;
+    align-items:center;
+    padding: 0 50px;
+}
+
+.hero-content {
+    max-width: 450px;
+    padding: 30px;
+    
+     background: rgba(141, 123, 20, 0.527); 
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    background-color: #F84F66; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.cta-button:hover {
+    background-color: #d1132a;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px;
+    text-align: center;
+
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.feature-item {
+    max-width: 200px;
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #999;
+}
+
+
+
+
