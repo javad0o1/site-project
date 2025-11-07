@@ -1,0 +1,273 @@
+
+
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #fff;
+    color: #333;
+    direction: rtl; 
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 50px;
+    border-bottom: 1px solid #ff000000;
+    background-color: #ffffff5e;
+    margin-bottom: 25px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder; 
+    color: #000000;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: bottom 10px; ;
+}
+
+#aicons{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#aicons:hover {
+    background-color: #666;
+    font-size: large;
+    border-radius: 15%;
+}
+
+ #a22{
+text-decoration: none;
+    color: #000000c4;
+    
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: bottom 10px; ;
+}
+ 
+#span1{
+    margin-bottom: 21px;
+    cursor: pointer;
+    
+}
+
+#span1 :hover {
+    filter: drop-shadow(0px 0px 5px);
+}
+
+.nav-links a:hover {
+    color: #F84F66; 
+    font-size: ;
+}
+
+#al1 {
+    color: #F84F66; 
+    font-size: 20px;
+}
+
+.icons  {
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ #a22:hover {
+color: #F84F66; 
+    
+}
+.hero-section {
+    background-size:auto;
+    display: flex;
+    align-items:center;
+    padding: 0 50px;
+    text-align: center;
+}
+.hero-content {
+    max-width: 450px;
+    padding: 30px;
+    margin-right: 17%;
+     background: rgba(141, 123, 20, 0.527); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+
+
+.hero-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    background-color: #F84F66; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.cta-button:hover {
+    background-color: #d1132a;
+}
+
+#img1 {
+    width: 45%;
+    border-radius: 20px;
+    margin-left: 15%;
+    
+    
+}
+#img1:hover{
+    filter: drop-shadow(0px 0px 5px black);
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px;
+    text-align: center;
+    margin-top: 17px;
+    border-radius: 50px;
+    background-color: #ffffff42;
+}
+.feature-item {
+    max-width: 200px;
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #949494;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #999;
+}
+
+/* درباره ما */
+
+body {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+#adar{
+  color: #F84F66; 
+    font-size: 20px;
+}
+
+#adar :hover{
+
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+background: linear-gradient(90deg, rgba(13, 98, 131, 0.473) 0%, rgba(40, 168, 93, 0.486) 50%, rgba(202, 186, 36, 0.589) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(10, 10, 1, 7);
+}
+
+header h1 {
+    text-align: center;
+    color: #666666; 
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+
+h2 {
+    color: #8e01b9; 
+    font-size: 1.5em;
+    border-right: 5px solid #000000;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+
+.commitment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.commitment-list li {
+    background-color: #cacaca5d; 
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.commitment-list strong {
+    color: #007bff;
+    display: block;
+    margin-bottom: 3px;
+}
+
+
+.cta {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px dashed #ccc;
+    margin-top: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #145f18;
+}
+
+
